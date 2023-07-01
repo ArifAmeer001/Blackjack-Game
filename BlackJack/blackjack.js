@@ -90,7 +90,7 @@ const displayCards = (card) => {
         if(card === cI)
         {
             const img = document.createElement('img')
-            img.src = 'images/'+card
+            img.src = 'BlackJack/images/'+card
             imageContainer.appendChild(img);
             break;
         }
